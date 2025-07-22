@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formulario p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+li {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 5px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: #1976d2;
+  color: white;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab-componentes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Encuesta de Intereses</h1>
+    <main>
+        <form action="" class="formulario">
+
+        <p>Selecciona una de las opciones de tu interés:</p>
+        <ol>
+            <li>Diseño Web</li>
+            <button onclick="votar('WD')"  type="button" id="webDesign">Diseño Web</button>
+             <p class="parrafo" >Votos: <span id="votos-WD">0</span></p>
+
+            <li>JavaScript</li>
+            <button onclick="votar('JS')" type="button" id="javaScript">JavaScript</button>
+            <p class="parrafo" >Votos: <span id="votos-JS">0</span></p>
+
+            <li>Bases de datos</li>
+            <button onclick="votar('BD')" type="button" id="dataBases">Bases de datos</button>
+             <p class="parrafo" >Votos: <span id="votos-BD">0</span></p>
+        </ol>
+
+
+
+
+
+
+        </form>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
