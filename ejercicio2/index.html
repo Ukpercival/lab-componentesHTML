@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrito de compras</title>
+    <link rel="stylesheet" href="/ejercicio2/style.css">
+</head>
+<body>
+    <main>
+        <h1>🛍️ Carrito de Compras 🛒</h1>
+        
+        <ul>
+            <li>
+                <h3>Papas Fritas 🍟</h3>
+                <p>Precio: $<span>13</span></p>
+                <button onclick="agregar('Papas Fritas', 13)">Agregar al carrito</button>
+            </li>
+
+            <li>
+                <h3>Hamburguesa 🍔</h3>
+                <p>Precio: $<span>22</span></p>
+                <button onclick="agregar('Hamburguesa', 22)">Agregar al carrito</button>
+            </li>
+
+            <li>
+                <h3>Gaseosa🥤</h3>
+                <p>Precio: $<span>5</span></p>
+                <button onclick="agregar('Gaseosa', 5)">Agregar al carrito</button>
+            </li>
+        </ul>
+
+        <div id="totales">
+            <h2>Resumen del Carrito</h2>
+            <p>Artículos totales: <span id="total-items">0</span></p>
+            <p>Precio total: $<span id="total-precio">0</span></p>
+            
+            <button class="vaciar" onclick="vaciar()">Vaciar Carrito</button>
+        </div>
+    </main>
+</body>
+<script src="/ejercicio2/script.js"></script>
+</html>
